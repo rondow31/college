@@ -1,0 +1,95 @@
+object Form1: TForm1
+  Left = 354
+  Height = 412
+  Top = 136
+  Width = 685
+  Caption = 'Form1'
+  ClientHeight = 412
+  ClientWidth = 685
+  LCLVersion = '2.0.12.0'
+  object ComboBox1: TComboBox
+    Left = 30
+    Height = 23
+    Top = 53
+    Width = 147
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'Простые'
+      'Сложные'
+    )
+    OnChange = ComboBox1Change
+    Style = csDropDownList
+    TabOrder = 0
+    Text = 'Простые'
+  end
+  object Edit1: TEdit
+    Left = 30
+    Height = 23
+    Top = 120
+    Width = 147
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 30
+    Height = 23
+    Top = 194
+    Width = 147
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    Left = 30
+    Height = 23
+    Top = 268
+    Width = 147
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 30
+    Height = 42
+    Top = 336
+    Width = 147
+    Caption = 'Расчитать'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 30
+    Height = 15
+    Top = 32
+    Width = 82
+    Caption = 'Тип процентов'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 30
+    Height = 15
+    Top = 99
+    Width = 94
+    Caption = 'Количество дней'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 30
+    Height = 15
+    Top = 176
+    Width = 117
+    Caption = 'Проценты за день(%)'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 30
+    Height = 15
+    Top = 245
+    Width = 99
+    Caption = 'Начальная сумма'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 224
+    Height = 326
+    Top = 52
+    Width = 413
+    TabOrder = 5
+  end
+end
